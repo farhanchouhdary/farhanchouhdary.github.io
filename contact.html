@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us — Trail & Compass</title>
+<meta name="description" content="Get in touch with Trail & Compass, Skardu — plan a trek, jeep safari or gear rental.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="container">
+    <a href="index.html" class="logo">
+      <svg class="mark" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M4 24L12 8L16 15L20 6L26 24H4Z" stroke-width="2" stroke-linejoin="round"/>
+      </svg>
+      Trail &amp; Compass
+    </a>
+    <nav>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<section class="page-header">
+  <svg class="contour-bg" viewBox="0 0 1200 400" preserveAspectRatio="xMidYMid slice" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M-50 300 Q150 200 300 260 T600 240 T900 280 T1250 230" stroke="#7FB3D5" stroke-width="1.5"/>
+    <path d="M-50 350 Q150 260 300 310 T600 300 T900 330 T1250 290" stroke="#7FB3D5" stroke-width="1.5"/>
+  </svg>
+  <div class="container">
+    <div class="eyebrow">Get In Touch</div>
+    <h1>Plan your route with us</h1>
+    <p>Tell us your dates and fitness level, or drop by the office in Skardu — we'll help you pick the right trek.</p>
+  </div>
+</section>
+<svg class="elevation-divider on-slate" viewBox="0 0 1200 46" preserveAspectRatio="none"><path d="M0 46V20 Q100 0 220 18 T460 12 T700 24 T940 8 T1200 20V46Z"/></svg>
+
+<section class="section-glacier">
+  <div class="container contact-grid">
+
+    <!-- FORM -->
+    <div>
+      <div class="eyebrow">Send a Message</div>
+      <h2>We usually reply within a day</h2>
+      <form id="contactForm" novalidate>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone" placeholder="+92 3XX XXXXXXX" required>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="e.g. Deosai trek dates" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Tell us your travel dates, group size and fitness level..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+        <p id="formStatus" style="margin-top:14px; font-size:14px; color:var(--pine); display:none;">Thanks — your message has been noted. We'll reply by email shortly.</p>
+      </form>
+    </div>
+
+    <!-- INFO -->
+    <div>
+      <div class="info-card">
+        <svg class="icon" viewBox="0 0 26 26" fill="none"><path d="M13 24C13 24 21 17 21 11C21 6.6 17.4 3 13 3C8.6 3 5 6.6 5 11C5 17 13 24 13 24Z" stroke-width="2"/><circle cx="13" cy="11" r="3" stroke-width="2"/></svg>
+        <div>
+          <h3>Office Address</h3>
+          <p>Trail &amp; Compass, Yadgar Chowk Road, Skardu, Gilgit-Baltistan, Pakistan</p>
+        </div>
+      </div>
+      <div class="info-card">
+        <svg class="icon" viewBox="0 0 26 26" fill="none"><rect x="4" y="3" width="18" height="20" rx="2" stroke-width="2"/><path d="M4 8H22" stroke-width="2"/></svg>
+        <div>
+          <h3>Business Hours</h3>
+          <p>Monday – Saturday, 9:00 AM – 6:00 PM (PKT)<br>Sunday: Closed</p>
+        </div>
+      </div>
+      <div class="info-card">
+        <svg class="icon" viewBox="0 0 26 26" fill="none"><path d="M4 5C4 5 5 4 7 4C8 4 9 7 9 8C9 9 7 10 7 11C7 14 12 19 15 19C16 19 17 17 18 17C19 17 22 18 22 19C22 21 21 22 19 22C13 22 4 13 4 7C4 6 4 5 4 5Z" stroke-width="2" stroke-linejoin="round"/></svg>
+        <div>
+          <h3>Phone</h3>
+          <p>+92 355 5566 210</p>
+        </div>
+      </div>
+      <div class="info-card">
+        <svg class="icon" viewBox="0 0 26 26" fill="none"><rect x="3" y="5" width="20" height="16" rx="2" stroke-width="2"/><path d="M3 6L13 14L23 6" stroke-width="2" stroke-linejoin="round"/></svg>
+        <div>
+          <h3>Email</h3>
+          <p>hello@trailandcompass.pk</p>
+        </div>
+      </div>
+
+      <div class="map-wrap">
+        <iframe
+          src="https://www.google.com/maps?q=Skardu,Gilgit-Baltistan,Pakistan&output=embed"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Trail & Compass office location in Skardu">
+        </iframe>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-logo">
+          <svg width="26" height="26" viewBox="0 0 30 30" fill="none"><path d="M4 24L12 8L16 15L20 6L26 24H4Z" stroke="#C1602B" stroke-width="2" stroke-linejoin="round"/></svg>
+          Trail &amp; Compass
+        </div>
+        <p>Guide-led treks, jeep safaris and gear rental across Gilgit-Baltistan, Pakistan.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul>
+          <li><a href="services.html">Guided Treks</a></li>
+          <li><a href="services.html">Jeep Safaris</a></li>
+          <li><a href="services.html">Gear Rental</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li>Yadgar Chowk Road, Skardu</li>
+          <li>+92 355 5566 210</li>
+          <li>hello@trailandcompass.pk</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Trail &amp; Compass. All rights reserved.</span>
+      <span>Built for the TechSphere PK Web Development Internship</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
